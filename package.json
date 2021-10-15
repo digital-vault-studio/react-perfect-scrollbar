@@ -1,6 +1,6 @@
 {
-  "name": "react-perfect-scrollbar",
-  "version": "1.5.8",
+  "name": "react-perfect-scrollbar-dvs",
+  "version": "1.5.9",
   "description": "A react wrapper for perfect-scrollbar",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldenyz/react-perfect-scrollbar.git"
+    "url": "https://github.com/digital-vault-studio/react-perfect-scrollbar.git"
   },
   "keywords": [
     "react",
@@ -38,7 +38,7 @@
     "react-dom": ">=16.3.3"
   },
   "dependencies": {
-    "perfect-scrollbar": "^1.5.0",
+    "perfect-scrollbar-dvs": "github:digital-vault-studio/perfect-scrollbar",
     "prop-types": "^15.6.1"
   },
   "devDependencies": {
@@ -72,7 +72,7 @@
     "webpack-dev-server": "^2.11.5"
   },
   "bugs": {
-    "url": "https://github.com/goldenyz/react-perfect-scrollbar/issues"
+    "url": "https://github.com/digital-vault-studio/react-perfect-scrollbar/issues"
   },
-  "homepage": "https://github.com/goldenyz/react-perfect-scrollbar"
+  "homepage": "https://github.com/digital-vault-studio/react-perfect-scrollbar"
 }

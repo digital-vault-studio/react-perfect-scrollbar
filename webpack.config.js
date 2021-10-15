@@ -7,6 +7,8 @@ const { UglifyJsPlugin } = webpack.optimize;
 const env = process.env.NODE_ENV;
 const libraryName = '[name]';
 
+console.log(libraryName)
+
 const plugins = [
   new webpack.DefinePlugin({
     'process.env.NODE_ENV': JSON.stringify(env),
